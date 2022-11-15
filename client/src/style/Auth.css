@@ -1,0 +1,76 @@
+.authorization_card{
+    width: 25vw;
+    position: relative;
+    top: -7vh;
+    left: 34%;
+    color: #343434;
+    
+}
+.authorization_card__title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.authorization_card__input{
+    display: block;
+    height: 40px;
+    width: 90%;
+    padding: 0 15px;
+}
+.authorization_card__input, .__email{}
+.authorization_card__input, .__email{}
+.authorization_card__description{
+    font-size: 14px;
+    display: inline-block;
+}
+.authorization_card__description > p > a{
+    color: #343434;
+    margin-right: 10px;
+}
+.authorization_card__check_box{
+    display: inline-block;
+    height: 3vh;
+    width: 3vh;
+    border: 0.5px solid #343434;
+    border-radius: 5px;
+    position: relative;
+    top: 0.7vh;
+    margin: 0 1vw 0 0;
+   text-align: center;
+   overflow: hidden;
+   cursor: pointer;
+}
+.check_box__check{
+    position: relative;
+    top: -0.5vh;
+}
+.authorization_card__btn{
+    height: 6vh;
+    padding: 0 20px;
+    color: rgb(209, 209, 209);
+    background: #388044;
+    border: 0.5px solid #343434;
+    border-radius: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+.authorization_card__btn:hover{
+    transition: all 0.5s ease 0s;
+    color: rgb(238, 238, 238);
+    background: #449952;
+}
+.authorization_card__btn:active{
+    transform: scale(0.97);
+    transition: all 0.3s ease 0s;
+
+}
+.authorization_card__btn__block{
+    height: 6vh;
+    padding: 0 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

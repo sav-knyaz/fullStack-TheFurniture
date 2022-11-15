@@ -1,0 +1,144 @@
+.create-dev__wrapper{
+    display: none;
+}
+.change-dev__wrapper{
+    display: none;
+}
+.change-dev__wrapper__active{
+    background-color: rgba(0, 0, 0, 0.658);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.create-dev__wrapper__active{
+    background-color: rgba(0, 0, 0, 0.658);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.create-dev__body{
+    background-color: #eee;
+    width: 80vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 10vw;
+    z-index: 1000;
+}
+.create-dev__body__delete{
+    background-color: #eee;
+    width: 40vw;
+    height: 40vh;
+    position: relative;
+    top: 25vh;
+    left: 25vw;
+   
+}
+.create-dev__crest{
+    position: relative;
+    left: 76vw;
+    top: 3vh;
+    cursor: pointer;
+}
+.create-dev__crest__delete{
+    position: relative;
+    left: 36vw;
+    top: 3vh;
+    cursor: pointer;
+
+}
+.create-dev__title{
+    font-size: 20px;
+    font-weight: 350;
+    position: relative;
+
+    left: 33vw;
+}
+.__delete__title{
+   position: relative;
+   left: 15vw;
+}
+.create-dev__input{
+    width: 30vw;
+    height: 6vh;
+    font-size: 16px;
+    position: relative;
+    
+    margin: 0 0 5px 5vw;
+    padding: 0 10px 0 10px;
+}
+.__descrip{
+    position: relative;
+    bottom: 3vh;
+}
+.__img{
+    border: none;
+    position: relative;
+    bottom: 14vh;
+}
+.create-dev__list-img{
+    padding: 0 5vw 0 5vw;
+    position: relative;
+    bottom: 15vh;
+    height: 10vh;
+    overflow-y: scroll;
+    width: 30vw;
+}
+.create-dev__lable{
+    position: relative;
+    left: 6vw;
+    bottom: 7vh;
+
+}
+.__sale{
+    width: 1.5vw;
+    position: relative;
+    left: 2vw;
+    bottom: 5vh;
+   
+}
+.__sale-precent{
+   position: relative;
+   left: 37vw;
+   bottom: 8vh;
+}
+
+.create-dev__btn{
+    position: absolute;
+    bottom: 10vh;
+    right: 20vw;
+    height: 6vh;
+    padding: 0 20px;
+    font-size: 15px;
+    color: rgba(185, 185, 185, 0.933);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+
+}
+
+.__delete__btn{
+    position: absolute;
+    bottom: 5vh;
+    left: 15vw;
+    padding: 0 10px 0 10px;
+    width: 8vw;
+    height: 6vh;
+    padding: 0 20px;
+    font-size: 15px;
+   
+}
+
+.__uploade__btn{
+    position: absolute;
+    bottom: 10vh;
+    left: 7vw;
+    width: 20vw;
+    height: 6vh;
+    font-size: 14px;
+}
+
+    

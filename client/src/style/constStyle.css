@@ -1,0 +1,71 @@
+.__wrapper{
+    background-color: rgba(0, 0, 0, 0.658);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.__input{
+    border: 0.5px solid #343434;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-color: #eee;
+}
+.__btn__grey{
+    color: rgb(184, 184, 184);
+    background: #343434;
+    border: 0.5px solid #343434;
+    border-radius: 30px;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+.__btn__grey:hover{
+    transition: all 0.5s ease 0s;
+    color: rgb(238, 238, 238);
+    background: #3f3f3f;
+}
+.__btn__grey:active{
+    transform: scale(0.97);
+    transition: all 0.3s ease 0s;
+}
+.__btn__green{
+    height: 6vh;
+    padding: 0 20px;
+    color: rgb(209, 209, 209);
+    background: #388044;
+    border: 0.5px solid #343434;
+    border-radius: 30px;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+.__btn__green:hover{
+    transition: all 0.5s ease 0s;
+    color: rgb(238, 238, 238);
+    background: #449952;
+}
+.__btn__green:active{
+    transform: scale(0.97);
+    transition: all 0.3s ease 0s;
+
+}
+.__btn__red{
+    height: 6vh;
+    padding: 0 20px;
+    color: rgb(209, 209, 209);
+    background: #803838;
+    border: 0.5px solid #343434;
+    border-radius: 30px;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+.__btn__red:hover{
+    transition: all 0.5s ease 0s;
+    color: rgb(238, 238, 238);
+    background: #bb3b3b;
+}
+.__btn__red:active{
+    transform: scale(0.97);
+    transition: all 0.3s ease 0s;
+
+}

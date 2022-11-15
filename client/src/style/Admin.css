@@ -1,0 +1,14 @@
+.admin{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    left: 15vw;
+}
+.admin__btn{
+    font-size: 16px;
+    height: 7vh;
+    padding: 0 20px;
+    margin: 0 4vw 5vh 0;
+}

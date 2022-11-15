@@ -1,0 +1,49 @@
+.commits__wrapper{
+    margin-top: 8vh;
+    margin-left: 5vw;
+    min-height: 30vh;
+    border-top: 1px solid #343434;
+    width: 90vw;
+}
+.commits__title{
+    margin: 0 0 20px 0;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #343434;
+}
+.commits__messeg{
+    width: 50vw;
+    position: relative;
+    left: 17vw;
+}
+.messeg__user{
+    margin:  0 0 0 3vw;
+}
+.messeg__text{
+    border: 0.5px solid #343434;
+    border-radius: 30px;
+    padding: 15px 15px;
+}
+.messeg__null{
+    position: relative;
+    left: 14vw;
+}
+.commits__new-commit{
+    margin-top: 5vh;
+    padding: 0 0 0 24vw;
+}
+.new-commit__input{
+    width: 30vw;
+    height: 15vh;
+    display: block;
+    border: 0.5px solid #343434;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-color: #eee;
+    padding: 10px 15px;
+}
+.new-commit__btn{
+    height: 6vh;
+    padding: 0 20px;
+}

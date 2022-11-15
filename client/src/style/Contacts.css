@@ -1,0 +1,29 @@
+.contacts-wrapper{
+    width: 80vw;
+    height: 80vh;
+    margin: 10vh 10vw;
+}
+.flex-container-column{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contacts-wrapper__title{
+    text-align: center;
+}
+.contacts-wrapper__column{
+    width: 25vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.column__title{
+    
+}
+.column__link{
+    text-decoration: none;
+    color: #343434;
+    font-weight: 500;
+    margin-top: 3vh;
+}

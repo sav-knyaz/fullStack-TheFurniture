@@ -1,0 +1,17 @@
+.main__wrapper{
+width: 100vw;
+height: 100vh;
+}
+.main__title{
+font-size: 20px;
+color: #343434;
+position: relative;
+left: 10vw;
+margin: 0;
+}
+.main__body{
+width: 90vw;
+height: 90vh;
+border-radius: 10px;
+margin: 0 auto;
+}

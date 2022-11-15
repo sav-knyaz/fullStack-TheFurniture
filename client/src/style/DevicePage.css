@@ -1,0 +1,58 @@
+.device-page__wrapper{
+    width: 90vw;
+    margin: 0 0 7vh 1vw;
+    overflow: hidden;
+}
+.device-page__title{
+    text-align: center;
+}
+.device-page__grade{
+    text-align: center;
+    font-size: 18px;
+    
+}
+.device-page__rating{
+    padding: 0 0 0 43.5vw;
+}
+.device-page__stars{
+    font-size: 34px;
+   padding: 0 40vw;
+}
+
+.device-page__price{
+    text-align: center;
+}
+.device-page__price__cross-out{
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 350;
+    color: #3434347e;
+}
+.device-page__btn{
+    height: 6vh;
+    padding: 0 20px;
+    position: relative;
+    left: 38vw;
+}
+
+.device-page__description{
+    text-align: center;
+    margin: 5vh 0 5vh 0;
+}
+.device-page__spec-desc{
+    text-align: center;
+    margin: 0 0 5vh 0;
+}
+.description__title{
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.description__descript{}
+.spec-desc__title{
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.spec-desc__descript{}

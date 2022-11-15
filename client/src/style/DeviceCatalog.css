@@ -1,0 +1,70 @@
+.catalog__wrapper__device-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 15vh;
+}
+.catalog__device-card{
+    margin-top: 10vh;
+    width: 20vw;
+    height: 43vh;
+    position: relative;
+}
+.device-card__title{
+    font-size: 18px;
+    font-weight: 500;
+    color: #343434;
+}
+.device-card__block-img{
+    width: 20vw;
+    height: 23vh;
+
+}
+.device-card__img{
+    display: block;
+    max-width: 20vw;
+    max-height: 23vh;
+    margin: 0 auto;
+    
+}
+.device-card__rating{
+    font-size: 16px;
+    font-weight: 350;
+    color: #343434;
+}
+.device-card__price{
+    font-size: 16px;
+    font-weight: 400;
+    color: #353535;
+}
+.device-card__price__cross-out{
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 350;
+    color: #3434347e;
+}
+.device-card__price__sale{
+ margin: 0 0 0 1vw;
+ font-weight: 400;
+}
+.device-card__btn{
+    position: absolute;
+    border: none;
+    font-size: 40px;
+    font-weight: 300;
+    color: #636363;
+    bottom: 11vh;
+    right: 0;
+    cursor: pointer;
+}
+.modal__catalog{
+    background-color: #343434;
+    border-radius: 30px;
+    padding: 3vh 3vw;
+    color: #eee;
+    position: relative;
+    bottom: 26vh;
+}

@@ -1,0 +1,49 @@
+.create-type__background{
+    display: none;
+}
+.create-type__background__active{
+    background-color: rgba(0, 0, 0, 0.658);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.create-type__wrapper{
+    background-color: #eee;
+    width: 40vw;
+    height: 40vh;
+    position: relative;
+    top: 20vh;
+    left: 25vw;
+    z-index: 1000;
+
+}
+.create-type__input{
+    width: 30vw;
+    height: 6vh;
+    font-size: 16px;
+    position: relative;
+    left: 5vw;
+}
+.create-type__title{
+    font-size: 20px;
+    font-weight: 350;
+    position: relative;
+    left: 14vw;
+}
+.create-type__btn{
+    position: absolute;
+    bottom: 4vh;
+    right: 16vw;
+    height: 6vh;
+    padding: 0 20px;
+    font-size: 15px;
+
+}
+.create-type__crest{
+    position: relative;
+    left: 36vw;
+    top: 3vh;
+    cursor: pointer;
+}

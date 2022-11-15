@@ -1,0 +1,48 @@
+.delete-room__wrapper__close{
+    display: none;
+}
+.delete-room__wrapper{
+    background-color: rgba(0, 0, 0, 0.658);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.delete-room__body{
+    background-color: #eee;
+    width: 40vw;
+    height: 40vh;
+    position: relative;
+    top: 20vh;
+    left: 25vw;
+    z-index: 1000;
+}
+.delete-room__crest{
+    position: relative;
+    left: 36vw;
+    top: 3vh;
+    cursor: pointer;
+}
+.delete-room__input{
+    width: 30vw;
+    height: 6vh;
+    font-size: 16px;
+    position: relative;
+    left: 5vw;
+}
+.delete-room__title{
+    font-size: 20px;
+    font-weight: 350;
+    position: relative;
+    left: 12vw;
+}
+.delete-room__btn{
+    position: absolute;
+    bottom: 4vh;
+    right: 16vw;
+    height: 6vh;
+    padding: 0 20px;
+    font-size: 15px;
+
+}

@@ -1,0 +1,40 @@
+.pageations-wrapper{
+    height: 5vh;
+    width: 10vw;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.pageations-wrapper__arrow{
+    width: 1.5vh;
+    height: 1.5vh;
+    border-top: 1px solid #343434;
+    border-left: 1px solid #343434;
+   transition: all 0.3s ease 0s;
+}
+.pageations-wrapper__arrow:hover{
+    border-top: 2px solid #343434;
+    border-left: 2px solid #343434;
+   transition: all 0.2s ease 0s;
+}
+.pageations-wrapper__numbers-pages{
+    width: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   transition: all 0.3s ease 0s;
+}
+.number-page{
+
+}
+.number-page__now{
+    position: relative;
+    bottom: 0.5vh;
+   font-size: 18px;
+   font-weight: 700;
+   color: #343434;
+   transition: all 0.3s ease 0s;
+}
